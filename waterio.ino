@@ -16,7 +16,7 @@ const byte MANUAL_PUMP_TRIGGER_PIN = 8;
 // constants
 unsigned const long WAIT_TIME_MS = 14400000;
 unsigned const int ON_TIME_MS = 20000;
-unsigned const int SOIL_READ_WAIT_TIME_MS = 15000/*1800000*/;
+unsigned const int SOIL_READ_WAIT_TIME_MS = 1800000;
 
 void setup() {
 		 pinMode(PUMP_TRIGGER_PIN, OUTPUT);
